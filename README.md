@@ -9,7 +9,7 @@ Task: Implement a function to search for a value in a list or matrix, potentiall
 Data Structures Problems (MaxStacking):
 Task: Solve problems using data structures like linked lists, stacks, queues, or binary trees, ensuring efficient operations like insertion, deletion, or retrieval.
 
-String Anagrams Manipulation StringAnagrams):
+String Anagrams Manipulation (StringAnagrams):
 Task: Manipulate strings to find patterns, perform transformations, or solve problems like checking for anagrams or finding substrings.
 
 Recursion Factorial Problems (RecursionFactorial):
