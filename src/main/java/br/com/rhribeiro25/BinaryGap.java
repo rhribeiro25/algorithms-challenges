@@ -6,9 +6,11 @@ import java.util.regex.Pattern;
 public class BinaryGap {
     public int solution(int N) {
         String binary = Integer.toBinaryString(N);
-        // Expressão regular para encontrar gaps binários
 
         // Expressão regular para encontrar gaps binários
+        // (?<=1): Garante que há um 1 antes do gap.
+        // 0+: Encontra uma ou mais ocorrências de zeros.
+        // (?=1): Garante que há um 1 após o gap.
         Pattern pattern = Pattern.compile("(?<=1)0+(?=1)");
         Matcher matcher = pattern.matcher(binary);
 
